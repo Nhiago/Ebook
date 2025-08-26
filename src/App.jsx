@@ -267,15 +267,12 @@ function App() {
               </div>
               
               <div className="space-y-3">
-                <Button className="w-full bg-green-600 hover:bg-green-700">
+                <Button className="w-full bg-green-600 hover:bg-green-700" 
+                 onClick={() => window.open('https://pay.hotmart.com/Q101573001X?bid=1756169338758', '_blank')}
+                 >
                   💳 Pagar com Cartão (Hotmart)
                 </Button>
-                <Button className="w-full bg-blue-600 hover:bg-blue-700">
-                  📱 Pagar via PIX
-                </Button>
-                <Button className="w-full bg-purple-600 hover:bg-purple-700">
-                  💬 Comprar via WhatsApp
-                </Button>
+               
               </div>
 
               <div className="text-xs text-gray-400 text-center">
